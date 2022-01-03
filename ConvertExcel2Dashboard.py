@@ -12,7 +12,8 @@ st.subheader ('Visualizing Excel TCC Infra metrics using Python - Streamlit')
 
 ### --- Load Dataframe
 
-csv_file = 'TCC_InfraMetrics_DemoOne.csv'
+#csv_file = 'TCC_InfraMetrics_DemoOne.csv'
+csv_file = 'https://github.com/RajkumarDuraipandian/python-dashboard-1/blob/89950e0b8912e5ad964f94ee28972fdff4bbf430/TCC_InfraMetrics_DemoOne1.csv?raw=true'
 #sheet_name = 'TCC_InfraMetrics_DemoOne'
 
 df = pd.read_csv (csv_file)                  
