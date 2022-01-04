@@ -7,8 +7,7 @@ import plotly.express as px
 from PIL import Image
 
 st.set_page_config (page_title= "GCS_OnPrem_TCC_InfraMetrics",
-                    page_icon=":bar_chart:",
-                    template=
+                    page_icon=":bar_chart:"
                     )
 
 st.header('TCC Infra Metrics')
